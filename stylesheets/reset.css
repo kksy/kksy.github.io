@@ -1,0 +1,54 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+	box-sizing: border-box;
+}
+
+/* sudo selectors */
+*, *:before, *:after { 
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+blockquote,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+main,
+li {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-size: inherit;
+}
+
+a,
+button {
+	color: inherit; /* doesn't by default */
+	transition: .3s;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	display: block;
+}

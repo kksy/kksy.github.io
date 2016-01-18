@@ -1,0 +1,374 @@
+/* dark purple */
+/* light yellow */
+/* grey */
+/* line 7, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+
+/* line 12, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+h1, h2, h3 {
+  font-family: "Roboto", sans-serif;
+  color: #444; }
+
+/* line 17, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+h1 {
+  font-size: 30px; }
+
+/* line 21, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+h2 {
+  font-size: 30px;
+  text-transform: uppercase; }
+
+/* line 26, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+h3 {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: normal; }
+
+/* line 32, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+a {
+  transition: 0.3s; }
+
+/* line 36, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+p {
+  text-align: justify;
+  text-justify: inter-word; }
+
+/* line 41, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.container {
+  padding: 0 5%;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+/* NAVIGATION */
+/* line 49, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+nav {
+  background-color: #504151;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  color: #ccc; }
+
+/* line 58, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.desktop, .menu-top {
+  padding: 15px; }
+
+/* line 62, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.desktop {
+  display: none; }
+
+/* line 66, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.nav li {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-right: 10px;
+  margin-right: 10px; }
+  /* line 74, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .nav li:hover {
+    color: #FFF1BB; }
+
+/* line 79, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.nav li:last-of-type {
+  padding-right: 0;
+  margin-right: 0; }
+
+/* line 84, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.responsive-menu {
+  display: none; }
+  /* line 87, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .responsive-menu li {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px; }
+  /* line 94, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .responsive-menu li:hover {
+    background-color: white;
+    color: #504151; }
+  /* line 99, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .responsive-menu.showing {
+    display: block; }
+
+/* line 104, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.left {
+  float: left; }
+
+/* line 108, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.right {
+  float: right; }
+
+/* line 112, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.menu-top {
+  overflow: auto; }
+
+/* HOME SECTION */
+/* line 117, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+#home {
+  background: #a69eaf; }
+  /* line 120, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  #home p {
+    color: #444; }
+
+/* line 125, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.home-container {
+  padding-top: 58px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow: auto; }
+
+/* line 133, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.banner-top {
+  position: relative; }
+
+/* line 137, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.water {
+  position: absolute;
+  top: 0;
+  margin-left: 3%;
+  margin-top: 20%;
+  width: 15%; }
+
+/* line 145, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.banner-bottom {
+  display: block;
+  float: left;
+  max-width: 35%; }
+
+/* line 151, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.intro {
+  display: none;
+  float: right;
+  width: 65%; }
+
+/* line 157, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.intro-mobile {
+  display: block; }
+
+/* line 161, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.intro-about {
+  display: block;
+  margin-top: 50px; }
+
+/* line 166, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.arrow {
+  text-align: center;
+  margin-top: 40px; }
+
+/* PORTFOLIO SECTION */
+/* line 173, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+#portfolio {
+  background-color: #FAFAFA; }
+  /* line 176, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  #portfolio p {
+    color: #444; }
+
+/* line 181, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.projects {
+  margin-top: 40px; }
+
+/* line 185, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.project-container {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+/* line 190, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.project-img {
+  display: block;
+  margin-bottom: 20px; }
+  /* line 194, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .project-img p {
+    padding: 10px; }
+
+/* line 199, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.project-info {
+  display: block; }
+
+/* line 203, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.tech {
+  background-color: #999;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+  display: inline-block;
+  margin-bottom: 2px;
+  font-size: 12px; }
+
+/* line 213, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.links {
+  text-align: right;
+  margin-top: 20px; }
+  /* line 217, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .links a {
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    color: grey; }
+  /* line 225, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .links a:hover {
+    color: #504151;
+    border-color: #504151; }
+
+/* line 231, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px dotted #ccc; }
+
+/* CONTACT SECTION */
+/* line 239, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+#contact {
+  background-color: #FFF1BB;
+  text-align: center; }
+
+/* line 245, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+.contact-links i {
+  padding: 20px 10px;
+  color: #504151;
+  transition: 0.3s; }
+
+/* FOOTER */
+/* line 254, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+footer {
+  background-color: #504151;
+  color: #ccc;
+  padding: 20px; }
+  /* line 259, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  footer p {
+    margin: 0;
+    font-size: 12px;
+    text-align: center; }
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  /* line 270, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  h1 {
+    font-size: 40px; }
+
+  /* line 274, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  h2 {
+    font-size: 40px; }
+
+  /* line 278, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  h3 {
+    font-size: 30px;
+    line-height: 30px; }
+
+  /* line 283, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .nav li {
+    font-size: 20px; }
+
+  /* line 287, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .container, .home-container {
+    margin: 0 10%; }
+
+  /* line 291, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .home-container {
+    padding-top: 54px; }
+
+  /* line 295, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .container {
+    padding-top: 70px;
+    padding-bottom: 70px; }
+
+  /* line 300, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .intro {
+    display: block; }
+
+  /* line 304, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .intro-mobile, .intro-about {
+    display: none; }
+
+  /* line 308, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .water {
+    -webkit-animation: slideDownFade 4s infinite;
+    /* Safari 4+ */
+    -moz-animation: slideDownFade 4s infinite;
+    /* Fx 5+ */
+    -o-animation: slideDownFade 4s infinite;
+    /* Opera 12+ */
+    animation: slideDownFade 4s infinite;
+    /* IE 10+, Fx 29+ */
+    margin-left: 5%;
+    width: 40%; }
+
+  /* line 318, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .projects {
+    margin-top: 80px; }
+
+  /* line 322, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .project-container {
+    margin-top: 70px;
+    margin-bottom: 70px; }
+
+  /* line 328, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .project-img {
+    display: inline-block;
+    float: left;
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 0; }
+
+  /* line 336, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .project-info {
+    display: inline-block;
+    float: left;
+    width: 60%; }
+
+  /* line 342, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .mobile {
+    display: none; }
+
+  /* line 346, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .desktop {
+    display: block; } }
+@media screen and (min-width: 992px) {
+  /* line 353, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .container, .home-container {
+    margin: 0 15%; }
+
+  /* line 357, /home/ksy/personal_web/My-Portfolio-Site/source/stylesheets/style.css.scss */
+  .water {
+    width: 100%; } }
+/* KEYFRAMES */
+@-webkit-keyframes slideDownFade {
+  0%, 100% {
+    opacity: 0; }
+  20% {
+    opacity: 1; }
+  50% {
+    transform: translateY(80px); }
+  100% {
+    transform: translateY(80px); } }
+@-moz-keyframes slideDownFade {
+  0%, 100% {
+    opacity: 0; }
+  20% {
+    opacity: 1; }
+  50% {
+    transform: translateY(80px); }
+  100% {
+    transform: translateY(80px); } }
+@-o-keyframes slideDownFade {
+  0%, 100% {
+    opacity: 0; }
+  20% {
+    opacity: 1; }
+  50% {
+    transform: translateY(80px); }
+  100% {
+    transform: translateY(80px); } }
+@keyframes slideDownFade {
+  0%, 100% {
+    opacity: 0; }
+  20% {
+    opacity: 1; }
+  50% {
+    transform: translateY(80px); }
+  100% {
+    transform: translateY(80px); } }
