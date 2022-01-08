@@ -1,0 +1,73 @@
+/* Colors */
+:root {
+  --white: #fff;
+  --darkbackground: #1D1E20;
+  --purple: #A585DA;
+  --yellow: #FFF1BB;
+}
+
+/* Global stylesheet */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0 0.5em;
+  margin: 0 auto;
+  max-width: 37.5em;
+  font-family: 'Lato', sans-serif;;
+  color: var(--white);
+  background-color: var(--darkbackground);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--purple);
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  color: var(--yellow);
+}
+
+p {
+  text-align: justify;
+}
+
+.greeting-container {
+  margin-top: 5em;
+}
+
+.greeting {
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.socialmedia {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.socialmedia li {
+  margin: 0.5em 0.125em;
+  display: inline-flex;
+}
+
+@media screen and (min-width: 768px) {
+  .socialmedia {
+    font-size: 28px;
+  }
+}
