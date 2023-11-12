@@ -39,11 +39,14 @@ ul {
   margin: 0;
 }
 
+li {
+  line-height: 1.5;
+}
+
 a:link,
 a:visited {
-  text-decoration: none;
   color: var(--purple);
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 a:hover {
@@ -84,7 +87,7 @@ ul.socialmedia {
 }
 
 .socialmedia li {
-  margin: 0.5em 0.125em;
+  margin: 0 0.125em;
   display: inline-flex;
 }
 
