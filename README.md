@@ -1,4 +1,6 @@
-# eleventy-base-blog v9
+# kksy.github.io page
+
+Template generated using https://github.com/11ty/eleventy-base-blog. The following instructions are preserved to remind future me :)
 
 A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://github.com/11ty/eleventy/releases/tag/v3.0.0)).
 
