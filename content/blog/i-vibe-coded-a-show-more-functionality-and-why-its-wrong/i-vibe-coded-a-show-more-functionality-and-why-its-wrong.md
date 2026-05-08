@@ -29,7 +29,10 @@ To fix this, you can validate the contrast ratio of the text and background colo
 ## Mistake 2:  Focus Order
 I used the Tab key to navigate the links and pressed the Enter key on the “Show more” button. 
 
-<video controls width="250" aria-label="Demo of Claude Code's Show More Button Implementation" aria-details="#transcript-initial">
+<video
+  controls
+  aria-label="Demo of Claude Code's Show More Button Implementation" aria-details="#transcript-initial"
+  poster="./focus-order-claude-generated-preview.png">
   <source src="./focus-order-claude-generated.mp4" type="video/mp4" />
 </video>
 <details id="transcript-initial">
@@ -44,7 +47,12 @@ Keyboard navigation, an alternative to a mouse, is important for people with mob
 
 To fix this, a developer can add code that moves focus to the first new item after the list expands. See the <a href="#focus-fix-code-snippet">focus fix code snippet</a> if you're interested.
 
-<video controls width="250" aria-label="Demo of Fixed Focus Order" aria-details="#transcript-fixed">
+<video
+  controls
+  width="250"
+  aria-label="Demo of Fixed Focus Order"
+  aria-details="#transcript-fixed"
+  poster="./focus-order-fixed-preview.png">
   <source src="./focus-order-fixed.mp4" type="video/mp4" />
 </video>
 <details id="transcript-fixed">
