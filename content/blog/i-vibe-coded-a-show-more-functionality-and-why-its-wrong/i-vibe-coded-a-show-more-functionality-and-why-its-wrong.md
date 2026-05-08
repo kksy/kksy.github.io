@@ -31,7 +31,7 @@ I used the Tab key to navigate the links and pressed the Enter key on the “Sho
 
 <video
   controls
-  aria-label="Demo of Claude Code's Show More Button Implementation" aria-details="#transcript-initial"
+  aria-label="Demo of Claude Code's Show More Button Implementation" aria-details="transcript-initial"
   poster="./focus-order-claude-generated-preview.png">
   <source src="./focus-order-claude-generated.mp4" type="video/mp4" />
 </video>
@@ -51,7 +51,7 @@ To fix this, a developer can add code that moves focus to the first new item aft
   controls
   width="250"
   aria-label="Demo of Fixed Focus Order"
-  aria-details="#transcript-fixed"
+  aria-details="transcript-fixed"
   poster="./focus-order-fixed-preview.png">
   <source src="./focus-order-fixed.mp4" type="video/mp4" />
 </video>
