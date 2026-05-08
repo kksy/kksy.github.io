@@ -28,7 +28,7 @@ Poor contrast is an issue for people with low vision, making it difficult for th
 
 To fix this, you can validate the contrast ratio of the text and background colours using tools like <a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a> 
 
-## Mistake 2:  Focus Order
+## Mistake 2:  Built the UI before understanding the interaction model
 I used the Tab key to navigate the links and pressed the Enter key on the “Show more” button. 
 
 <video
