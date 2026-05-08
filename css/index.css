@@ -127,6 +127,9 @@ main,
 footer {
 	padding: 1rem;
 }
+footer p {
+	margin: initial;
+}
 main :first-child {
 	margin-top: 0;
 }
